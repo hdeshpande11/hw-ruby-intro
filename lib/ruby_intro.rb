@@ -72,15 +72,15 @@ def binary_multiple_of_4? s
   if s.match(/^0$/)
     return true
   end  
-  if s.match(/[10]*00$/)
+  if s.match(/^[10][10]*00$/)
     return true
   else
     return false
   end
-  # YOUR CODE HERE
+  #YOUR CODE HERE
 end
 
-binary_multiple_of_4?("1010101 00100")
+
 # Part 3
 
 class BookInStock
