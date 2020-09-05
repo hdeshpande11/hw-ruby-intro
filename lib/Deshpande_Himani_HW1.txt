@@ -80,7 +80,6 @@ def binary_multiple_of_4? s
   # YOUR CODE HERE
 end
 
-binary_multiple_of_4?("1010101 00100")
 # Part 3
 
 class BookInStock
