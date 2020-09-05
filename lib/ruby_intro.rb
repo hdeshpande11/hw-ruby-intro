@@ -85,4 +85,36 @@ end
 
 class BookInStock
 # YOUR CODE HERE
+  def initialize(isbn, price)
+    raise ArgumentError.new(
+    "Expected a non-empty isbn value, got empty string"
+  ) if isbn.size == 0
+    raise ArgumentError.new(
+    "Expected a positive non-zero price value, got #{price}"
+  ) if price <= 0
+
+    @isbn = isbn
+    @price = price
+  end
+  
+  def isbn
+    @isbn
+  end
+  
+  def price
+    @price
+  end
+  
+  def isbn=(isbn)
+    @isbn = isbn
+  end
+  
+  def price=(price)
+    @price=price
+  end
+  
+  def price_as_string
+    @price = '%.2f' % @price
+    return "$" + @price.to_s  
+  end
 end
