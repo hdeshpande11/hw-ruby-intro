@@ -1,4 +1,4 @@
-# When done, submit this entire file to the autograder.
+# HomeWork1 Himani Deshpande
 
 # Part 1
 
@@ -77,7 +77,7 @@ def binary_multiple_of_4? s
   else
     return false
   end
-  #YOUR CODE HERE
+ 
 end
 
 
