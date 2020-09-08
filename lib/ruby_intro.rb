@@ -1,5 +1,6 @@
 # HomeWork1 Himani Deshpande
 
+
 # Part 1
 
 def sum arr
