@@ -84,7 +84,7 @@ end
 # Part 3
 
 class BookInStock
-# YOUR CODE HERE
+
   def initialize(isbn, price)
     raise ArgumentError.new(
     "Expected a non-empty isbn value, got empty string"
